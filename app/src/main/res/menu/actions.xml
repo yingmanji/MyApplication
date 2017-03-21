@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/add"
+        android:showAsAction="always"
+        android:icon="@mipmap/ic_launcher"
+        android:title="add"/>
+    <item android:id="@+id/reset"
+        android:showAsAction="always"
+        android:title="reset"/>
+    <item android:id="@+id/about"
+        android:showAsAction="always"
+        android:title="about"/>
+    <item android:id="@+id/add2"
+        android:showAsAction="always"
+        android:icon="@mipmap/ic_launcher"
+        android:title="add2"/>
+    <item android:id="@+id/reset2"
+        android:showAsAction="ifRoom"
+        android:title="reset2"/>
+    <item android:id="@+id/about2"
+        android:showAsAction="ifRoom"
+        android:title="about2"/>
+</menu>
